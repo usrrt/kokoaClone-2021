@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
 @import "reset.css";
-@import "status-bar.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* Screens */
+@import "screens/login.css";
 
 input:focus {
   outline: none;
@@ -8,43 +14,5 @@ input:focus {
 
 body {
   font-family: "Pushster", cursive;
-}
-
-.welcome-header {
-  margin: 95px 0px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.welcome-header__title {
-  margin-bottom: 20px;
-  font-size: 30px;
-}
-.welcome-header__text {
-  width: 50%;
-  opacity: 0.5;
-}
-
-#login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 30px;
-}
-
-#login-form input {
-  border: none;
-  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
-  padding: 15px 0px;
-  font-size: 15px;
-  margin-bottom: 25px;
-  transition: border-color 0.3s ease-in-out;
-}
-
-#login-form input::placeholder {
-  color: rgb(0, 0, 0, 0.4);
-}
-
-#login-form input:focus {
-  border-color: rgb(0, 0, 0, 0.5);
+  height: 1000vh;
 }
