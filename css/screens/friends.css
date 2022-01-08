@@ -1,0 +1,10 @@
+#firends-display-link {
+  text-align: center;
+  display: block;
+  background-color: whitesmoke;
+  padding: 14px 0px;
+}
+
+#firends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
