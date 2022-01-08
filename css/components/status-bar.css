@@ -2,8 +2,10 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  position: fixed;
-  width: 100%;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
 .status-bar__column {
   width: 33%;
